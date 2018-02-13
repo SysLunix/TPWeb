@@ -1,3 +1,22 @@
+<!doctype html>
+<html class="no-js" lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="bouffe, recette, dannyboy">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="assets/icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="assets/css/normalize.css">
+        <link rel="stylesheet" href="assets/css/bulma.css">
+        <link rel="stylesheet" href="assets/css/main.css">    
+    </head>
+    <body>
+  <header>
 <!-- NAVBAR BEGIN-->
 
         <nav class="navbar is-transparent">
@@ -36,7 +55,7 @@
                     </a>
                   </div>
                 </div>
-                <a class="navbar-item" href="../recipe.php">
+                <a class="navbar-item" href="">
                   Recettes
                 </a>
               </div>
@@ -69,3 +88,26 @@
           </nav>
 
         <!-- NAVBAR END-->
+
+
+        <!-- SEARCH BAR -->
+      <section class="section">        
+        <div class="container">
+            <div class="notification has-text-centered">
+              Effectuer une <strong>recherche</strong> sur Danny Boy.
+            </div>
+          
+          <div class="field has-addons has-addons-centered">
+            <p class="control">
+              <input class="input" type="text" placeholder="Un plat,une recette,un aliment ?">
+            </p>
+            <p class="control">
+              <a class="button is-static">
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </a>
+            </p>
+          </div>
+        </div>
+      </section>
+        <!-- END SEARCH BAR -->
+  </header>

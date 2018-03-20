@@ -55,3 +55,5 @@ $route['translate_uri_dashes'] = FALSE;
 
 $route['recipe'] = 'RecipeController';
 $route['recipe/(:num)'] = 'RecipeController/recipe/$1';
+
+$route['ingredients'] = 'IngredientController';

@@ -1,3 +1,7 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?>
+
 <!-- CONTENT BEGIN -->
 
 
@@ -15,7 +19,7 @@
                 </div>
                 <div class="column"></div>
                 <div class="column">
-                    <img src="img/logo.png" alt="logo">
+                    <img src="/assets/img/logo.png" alt="logo">
                 </div>
               </div>
             </div>

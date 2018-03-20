@@ -8,12 +8,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="manifest" href="site.webmanifest">
-        <link rel="apple-touch-icon" href="assets/icon.png">
+        <link rel="apple-touch-icon" href="/assets/icon.png">
         <!-- Place favicon.ico in the root directory -->
 
-        <link rel="stylesheet" href="assets/css/normalize.css">
-        <link rel="stylesheet" href="assets/css/bulma.css">
-        <link rel="stylesheet" href="assets/css/main.css">    
+        <link rel="stylesheet" href="/assets/css/normalize.css">
+        <link rel="stylesheet" href="/assets/css/bulma.css">
+        <link rel="stylesheet" href="/assets/css/main.css">    
     </head>
     <body>
   <header>
@@ -22,7 +22,7 @@
         <nav class="navbar is-transparent">
             <div class="navbar-brand">
               <a class="navbar-item" href="#">
-                <img src="img/logo.png" alt="logo" width="30" height="30">
+                <img src="/assets/img/logo.png" alt="logo" width="30" height="30">
               </a>
               <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
                 <span></span>
@@ -55,7 +55,7 @@
                     </a>
                   </div>
                 </div>
-                <a class="navbar-item" href="">
+                <a class="navbar-item" href="/recipe/">
                   Recettes
                 </a>
               </div>
@@ -74,7 +74,7 @@
                       </a>
                     </p>
                     <p class="control">
-                      <a class="button is-primary" href="404.html">
+                      <a class="button is-primary" href="/ingredients/">
                         <span class="icon">
                           <i class="fas fa-user-circle"></i>
                         </span>

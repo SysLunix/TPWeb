@@ -21,5 +21,9 @@ class RecipeController extends MY_Controller
      * 
      * @param int $id
      */
-    public function recipe(int $id){}
+    public function recipe(int $id){
+
+        $this-renderView('recipe/recipe.php');
+        
+    }
 }
